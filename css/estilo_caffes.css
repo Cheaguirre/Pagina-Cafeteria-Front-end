@@ -1,0 +1,61 @@
+body{font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    background-color: rgb(220, 198, 127);}
+
+h2{ text-shadow: 4px 4px 30px white;}
+h2{text-align: center; font-size: 30px;}
+h2{font-size: 40px; text-align: center; color: brown;}
+
+.cafeses{background-color: rgb(111, 81, 5);
+        border: rgb(233, 153, 16);
+        padding: .6em;
+        display: flex;
+        flex-flow: row wrap;
+        width: 75%;
+        margin:0;
+        justify-content: center;}
+
+
+.cafeses ol {list-style-type: square;
+    margin-left: 10px;}
+
+.cafeses img {
+        border-radius: 10px;
+        margin-top: 10px;}
+.cafe{
+    border: rgb(233, 153, 16);
+    background-color: white;
+    color: sienna;
+    font-family: 'Courier New', Courier, monospace;
+    width: 550px;
+    height: 600px;
+    text-align: center;
+    margin: .6em;
+
+    }
+.c1{order: 1;
+    flex-grow: 0;}
+.c2{order: 2;
+    flex-grow: 0;}
+.c3{order: 3;   
+    flex-grow: 0;}
+.c4{order: 4;
+    flex-grow: 0;}
+.c5{order: 5;
+    flex-grow: 0;}
+
+table {border-collapse: collapse;
+        width: 76%;
+        margin-top: 20px;}
+    
+th,td{border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    }
+    
+th{background-color: #a57b53;
+    color: white;
+    font-weight: bold;}
+    
+tr:nth-child(even) {background-color: #f3f3f3;}
+    
+tr:hover {background-color: #e2e2e2;}

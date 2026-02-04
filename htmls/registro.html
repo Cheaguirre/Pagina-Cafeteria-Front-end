@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="../css/estilo_registro.css">
+</head>
+<style>
+    .imagen-lado {
+        float: right; /* Cambia a "right" para alinearla a la derecha */ /* Dejamos su datos y nosotros nos contactaremos con usted.../*
+        width: 300px; /* Ajusta el ancho según sea necesario */
+        height: 1000px; /* Ajusta la altura según sea necesario */
+        
+        border: 2px solid rgb(233, 223, 199);}
+</style>
+
+<body>
+    <u><h2 >Registrate y podrias ganas un cafe gratis!!!</h1></u>  
+    <p>Por favor, completa el siguiente formulario para registrarte.</p>
+    <hr/>
+    <form><fieldset><legend style="background-color:rgb(0, 0, 0); color: white;
+       border: none; padding: 10px 20px;
+        width: 29%;    box-sizing: border-box;
+        border: 2px solid rgb(233, 223, 199);
+        border-radius: 20px;">Ingrese Sus Datos</legend>
+
+        <label>Nombre y Apellidos:</label>
+        <input type="text" maxlength="50" zize="30" placeholder="Ricardo Aguirre Chero" required/>*<br/>
+        <label>Rut:</label>
+        <input type="text" maxlength="12" size="12" placeholder="12345678-9" required/>*<br/>
+        <label>Fecha De Cumpleaños</label>
+        <input type="date" placeholder="dd/mm/aaaa" required/>*<br/>
+        <label>Correo Electronico:</label>
+        <input type="email" maxlength="30" size="30" placeholder="ejemplo@gmail.cl" required/>*<br/>
+        <label>Edad:</label>
+        <input type="number"  min="18" max="99" placeholder="18" required/>*<br/>
+        <label>Numero De Celular:</label>
+        <input type="tel" maxlength="9" size="9" placeholder="987654321" required/>*<br/>
+        <label>Dirección:</label>
+        <input type="text" maxlength="30" size="30" placeholder="Av. Los Olmos 1234" required/>*<br/>
+
+        <label>Comuna:</label>
+        <select name="comunas"><!-- multiple size="5"-->
+            <option selected disabled>Selecciona la comuna</option>
+            <optgroup label="Región Metropolitana">
+                <option value="1301">Santiago</option>
+                <option value="1302">Maipú</option>
+                <option value="1304">La Cisterna</option>
+                <option value="1308">Puente Alto</option>
+            </optgroup>
+            <optgroup label="Región de Valparaíso">
+                <option value="0501">Valparaíso</option>
+                <option value="0502">Viña del Mar</option>
+                <option value="0504">Quilpué</option>
+                <option value="0505">Villa Alemana</option>
+            </optgroup>
+
+        </select>
+        <br />
+        <label>Genero:</label>
+        <input type="radio" name="genero" value="masculino" required/>Masculino
+        <input type="radio" name="genero" value="femenino" required/>Femenino
+        <input type="radio" name="genero" value="No Responder" required/>No Responder<br/>
+        <input type="submit" value="Terminar Registro" /><br/>
+
+       </fieldset>
+    </form>
+    <form><fieldset><legend style="background-color:rgb(0, 0, 0); 
+        color: white;border: none; padding: 10px 20px; 
+        width: 29%;    box-sizing: border-box;
+        border: 2px solid rgb(233, 223, 199);
+        border-radius: 20px;">Que Cafe Te Gustaria Ganar</legend> 
+       
+        <input type="radio" name="cafe" value="Americano" required/>Americano<br/>
+        <input type="radio" name="cafe" value="Expresso" required/>Expresso<br/>
+        <input type="radio" name="cafe" value="Capuchino" required/>Capuchino<br/>
+        <input type="radio" name="cafe" value="Cortado" required/>Cortado<br/>
+        <input type="radio" name="cafe" value="Latte" required/>Latte<br/>
+        <input type="submit" value="Enviar" ; 
+               que es onclick="alert('Buena Suerte !')"/><br/>
+
+    </fieldset>
+    </form>
+</body>
+</html>
